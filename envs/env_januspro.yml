@@ -1,0 +1,36 @@
+# Conda environment for DeepSeek JanusPro backend
+# Usage: conda env create -f envs/env_januspro.yml
+#
+# After creating the env, install the Janus package:
+#   conda activate nvflare_januspro
+#   git clone https://github.com/deepseek-ai/Janus.git /tmp/Janus
+#   pip install --no-build-isolation --no-deps -e /tmp/Janus
+name: nvflare_januspro
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - --extra-index-url https://download.pytorch.org/whl/cu128
+    - torch==2.9.1
+    - torchvision==0.24.1
+    - torchaudio==2.9.1
+    - nvflare>=2.5.0
+    - transformers==4.44.2
+    - tokenizers<0.20
+    - peft>=0.6.0
+    - datasets>=2.14.0
+    - Pillow
+    - numpy
+    - matplotlib
+    - accelerate
+    - sentencepiece
+    - protobuf
+    - timm>=0.9.16
+    - einops
+    - attrdict
+    - lpips

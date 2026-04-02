@@ -1,0 +1,19 @@
+{
+  "round": 5,
+  "task_kind": "multimodal",
+  "num_samples": 2000,
+  "loss": 0.5061682411283255,
+  "eval_num_samples": 500,
+  "eval_loss": 0.5355078013879913,
+  "eval_acc": 0.7806666666666667,
+  "eval_ppl": null,
+  "eval_clipscore": null,
+  "eval_lpips": null,
+  "optimizer_steps": 250,
+  "global_optimizer_step": 1250,
+  "lr_start": 2.25e-05,
+  "lr_end": 1.7625345884629144e-05,
+  "grad_l2": 0.11836529523134232,
+  "delta_l2": 0.18060261011123657,
+  "metric_errors": {}
+}

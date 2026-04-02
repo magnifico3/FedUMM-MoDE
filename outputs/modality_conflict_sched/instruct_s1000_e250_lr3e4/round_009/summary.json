@@ -1,0 +1,21 @@
+{
+  "round": 9,
+  "task_kind": "image_edit",
+  "num_samples": 1000,
+  "loss": 6.394470935821533,
+  "eval_num_samples": 250,
+  "eval_loss": 6.588864400982857,
+  "eval_acc": null,
+  "eval_ppl": null,
+  "eval_clipscore": 21.093103992462158,
+  "eval_lpips": null,
+  "optimizer_steps": 125,
+  "global_optimizer_step": 1125,
+  "lr_start": 7.018666706430662e-05,
+  "lr_end": 1.8379842703837777e-05,
+  "grad_l2": 0.023962270468473434,
+  "delta_l2": 0.20083065330982208,
+  "metric_errors": {
+    "lpips": "ModuleNotFoundError: No module named 'lpips'"
+  }
+}

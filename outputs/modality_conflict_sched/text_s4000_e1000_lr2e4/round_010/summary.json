@@ -1,0 +1,19 @@
+{
+  "round": 10,
+  "task_kind": "text",
+  "num_samples": 828,
+  "loss": 2.8515627750983605,
+  "eval_num_samples": 209,
+  "eval_loss": 2.9337781888467296,
+  "eval_acc": null,
+  "eval_ppl": 18.798520855594564,
+  "eval_clipscore": null,
+  "eval_lpips": null,
+  "optimizer_steps": 104,
+  "global_optimizer_step": 1040,
+  "lr_start": 6.030737921409169e-06,
+  "lr_end": 5.632713273251434e-10,
+  "grad_l2": 0.06963696330785751,
+  "delta_l2": 0.005865483544766903,
+  "metric_errors": {}
+}
